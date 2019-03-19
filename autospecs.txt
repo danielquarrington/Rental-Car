@@ -1,0 +1,24 @@
+Stock Number
+Year
+Make
+Model
+Vehicle Type
+Sub-type
+Transmission
+Horsepower
+Fuel Type
+License type
+Rental Cost Coefficient
+
+
+000001
+2017
+Hyundai
+Elantra
+Compact
+Sedan
+Manual-6
+149
+Gasoline
+G
+0.7
