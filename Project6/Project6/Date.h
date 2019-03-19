@@ -1,5 +1,9 @@
+
+//DATE.H 
+
 #pragma once
 #ifndef DATE_H
+#define _CRT_SECURE_NO_WARNINGS
 #define DATE_H
 
 class date {
@@ -11,6 +15,11 @@ private:
 	int year;
 
 public:
+
+	//Constructor
+
+	date(int,int,int);
+	date();
 
 	//Setter Functions
 
@@ -26,7 +35,7 @@ public:
 
 	//Member Function 
 
-	int CalculateDays() {};
+	int CalculateDays(date,date);
 
 
 };
