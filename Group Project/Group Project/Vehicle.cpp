@@ -36,4 +36,6 @@ std::ostream &operator <<(std::ostream &OUT, Vehicle &V) {
 	std::cout << "Horsepower: "; OUT << V.horse_power;
 	std::cout << "Fuel Type: "; OUT << V.fuel_type;
 	std::cout << "Rental Cost: "; OUT << V.rental_cost;
+
+	return OUT;
 }
