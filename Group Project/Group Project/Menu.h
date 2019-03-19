@@ -1,4 +1,6 @@
 #pragma once
+
+// MENU CLASS
 class Menu
 {
 public:
