@@ -8,6 +8,7 @@ protected:
 	double rental_cost;
 public:
 	Vehicle();
+	Vehicle(int, int, int, std::string, std::string, std::string, std::string, std::string, double);
 	~Vehicle();
 
 
