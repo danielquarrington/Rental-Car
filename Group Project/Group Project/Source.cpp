@@ -8,19 +8,21 @@
 using namespace std;
 
 int main() {
+	int CURRENT_STOCK_NUM = 1;
 	int const STOCK_SIZE = 10;
 	bool run = true;
 	//VEHICLES (in array)
-	Vehicle vehicles[STOCK_SIZE];
+
 
 	fstream data;
 	data.open("autospecs.txt");
-	for (int i = 0; i < STOCKSIZE; i++) {
+	for (int i = 0; i < STOCK_SIZE; i++) {
+		CURRENT_STOCK_NUM++;
 
 	}
 	//INITIIALIZE ARRAY
-	vehicles{
-		new Vehicle()
+	Vehicle *vehicles{
+	
 	};
 
 	while (run) {
@@ -96,6 +98,7 @@ int main() {
 			system("cls");
 			Vehicle temp;
 			cin >> temp;
+			//vehicle[i] = temp;
 
 			//PRINT THIS TO VEHICLE FILE
 			//MAKE SURE TO INCREMENT STOCK NUMBER
