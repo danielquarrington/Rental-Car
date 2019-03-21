@@ -15,7 +15,11 @@ int main() {
 
 	fstream data;
 	data.open("autospecs.txt");
-	for (int i = 0; i < STOCKSIZE; i++) {
+	if (data) {
+		cout << "FILE FOUND";
+	}
+	else { cout << "FILE NOT FOUND"; }
+	for (int i = 0; i < STOCK_SIZE; i++) {
 
 	}
 	//INITIIALIZE ARRAY
@@ -60,6 +64,9 @@ int main() {
 		case 1: //COMMERCIAL VEHICLE
 		{
 			system("cls");
+
+
+
 			cout << "";
 			break;
 		}
