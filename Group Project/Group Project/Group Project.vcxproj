@@ -124,9 +124,12 @@
   <ItemGroup>
     <ClCompile Include="Commercial.cpp" />
     <ClCompile Include="Date.cpp" />
-    <ClCompile Include="Main.cpp" />
     <ClCompile Include="Menu.cpp" />
+<<<<<<< HEAD
     <ClCompile Include="Personal.cpp" />
+=======
+    <ClCompile Include="Source.cpp" />
+>>>>>>> 307d0a7098dac5ce81a71ad331cff1bb4ed95958
     <ClCompile Include="Vehicle.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
